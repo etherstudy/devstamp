@@ -3863,3 +3863,29 @@ input, select, textarea {
 		}
 
 	}
+
+.gallery a.logo {
+	height: 10vh;
+	width: 10vh;
+}
+
+.gallery a.logo > img {
+	object-fit: scale-down;
+	height: auto;
+	min-height: auto;
+}
+
+.gallery a.logo {
+	height: 10vh;
+	width: 10vh;
+}
+
+.gallery a.small {
+	height: 10vh;
+}
+
+.gallery a.small > img {
+	object-fit: scale-down;
+	height: auto;
+	min-height: auto;
+}
